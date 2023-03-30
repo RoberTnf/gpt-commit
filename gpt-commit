@@ -6,5 +6,5 @@ then
     echo "No changes have been staged. Please add them with \`git add\` and try again."
     exit 1
 fi
-msg=$(sgpt "Generate a commit message for the following diff: ${diff@Q}")
+msg=$(sgpt "Generate a short commit message for the following diff: ${diff@Q}")
 git commit -e -m "${msg}"
