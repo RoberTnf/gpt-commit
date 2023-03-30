@@ -2,9 +2,7 @@
 
 Simple script that generates a commit message based on your staged changes.
 
-Really simple to use:
-
-[Video placeholder]
+![](gpt-commit.gif)
 
 ## Installations
 
