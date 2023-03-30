@@ -7,4 +7,4 @@ then
     exit 1
 fi
 msg=$(sgpt "Generate a commit message for the following diff: ${diff@Q}")
-git commit -e -m "$msg"
+git commit -e -m "${msg}"
